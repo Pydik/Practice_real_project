@@ -6,39 +6,71 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-            <div class="title__box">
-                <div class="title">Sign in</div>
-                <div class="registerbtn">
-                    <a href="#" class="register">Register</a>
+        <header class="header container">
+            <img class="header__logo" src="/images/header_block/Logo.png" alt="#">
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link menu__link__acctive">Home</a>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Services</a>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Contact</a>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Support</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="header__btn btn">Sign Up</a>
+        </header>
+        <section class="main container">
+                <div class="main__top">
+                    <div class="top__item-text">
+                        <h1 class="item-text__title title">Interior Design</h1>
+                        <p class="item-text__sub-title text">Step into a world where the art of Interior Design is meticulously </br> crafted to bring together timeless elegance and cutting-edge </br>
+                            modern Innovation, Allowing you to transform your living spaces </br> into the epitome of luxury and sophistication</p>
+                    </div>
+                    <img class="main__img img" src="/images/main_block/Image 1.png" alt="" class="top__img img">
                 </div>
-            </div>
-            <div class="input__box">
-                <div class="username__input">
-                    <input class="username" type="text" placeholder="My name is">
+                <div class="main__bottom">
+                    <div class="bottom__left">
+                        <a href="#" class="left__btn btn">Start Project</a>
+                        <div class="left__items">
+                            <div class="left__items-block">
+                                <p class="items__top text" href="">400+</p>
+                                <p class="items__bottom text">Project Complete</p>
+                            </div>
+                            <div class="left__items-block">
+                                <p class="items__top text" href="">600+</p>
+                                <p class="items__bottom text">Satisfied Clients</p>
+                            </div>
+                            <div class="left__items-block">
+                                <p class="items__top text" href="">100+</p>
+                                <p class="items__bottom text">Unique Styles</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom__right">
+                        <img class="right__img img" src="images/main_block/Image2.png" alt="#">
+                        <div class="right__scroll btn">
+                            <span class="scroll__arrow"></span>
+                        </div>
+                    </div>
+                    <div class="bottom__box"></div>
                 </div>
-                <div class="password__input">
-                    <input class="password" type="password" placeholder="Password">
-                </div>
-            </div>
-            <div class="sign__in__btn">
-                <a class="sign__in" href="#">Sign in</a>
-            </div>
-            <div class="last__line">
-                <div class="remember__me__box">
-                    <input type="checkbox" name="Remember_me">
-                    <p class="remember_me">Remember me</p>
-                </div>  
-                <a class="lost__password" href="#">Lost your password?</a>
-            </div>
-        </div>
-    </div>
+        </section>
 </body>
 </html>
