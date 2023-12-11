@@ -104,7 +104,7 @@ body{
 /*------------------Header------------------ */
 /*------------------Main------------------ */
 .main{
-    margin-top: 150px;
+    margin-top: 148px;
     position: relative;
 }
 
@@ -213,4 +213,117 @@ body{
     top: 10px;
     right: 560px;
     z-index: 25;
+}
+/*------------------Main------------------ */
+/*------------------Our Services------------------ */
+
+.our-services{
+    margin-top: 160px;
+}
+
+.our-services__sub-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 98px;
+}
+
+.sub-title__img{
+    width: 72px;
+    height: 70px;
+}
+
+.sub-title__title{
+    font-size: 30px;
+}
+
+.sub-title__text{
+    font-size: 22px;
+    line-height: 165.2%;
+    margin-top: 35px;
+}
+
+.our-services__title{
+    margin-left: 50px;
+}
+
+.our-services__title::before{
+    content: "";
+    height: 3px;
+    width: 100px;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: -50px;
+}
+
+/*------------------Our Services------------------ */
+/*------------------Custom design------------------ */
+
+.custom-design{
+    margin-top: 241px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-design__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.select-box__title{
+    font-size: 24px;
+    display: block; 
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 23.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-box__title-plus{
+    font-size: 30px;
+    line-height: 27px;
+}
+
+/*------------------Custom design------------------ */
+/*------------------Simple Steps------------------ */
+
+.simple-steps{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.simple-steps__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.simple-steps__logo{
+    width: 72px;
+    height: 72px;
+    margin-top: 61px;
+}
+
+.item__title{
+    font-size: 30px;
+    margin-top: 77px;    
+}
+
+.item__text{
+    line-height: 165.2%;
+    margin-top: 21px;
+}
+
+.simple-steps__box::after{
+    content: "";
+    width: 1px;
+    height: 102px;
+    background-color: #9B9B9B;
+    display: inline-block;
+    position: relative;
+    top: 170px;
+    left: -650px;
 }
