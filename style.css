@@ -430,3 +430,98 @@ body{
     font-size: 20px;
     margin: 0px;
 }
+
+/*------------------reviews------------------ */
+/*------------------subscribe------------------ */
+.subscribe{
+    margin-top: 206px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    z-index: 50;
+}
+
+.subscribe__title{
+    text-align: center;
+}
+
+.subscribe__text{
+    margin-top: 51px;
+    padding: 0px 105px 0px 105px;
+    text-align: center;
+    line-height: 165.2%;
+}
+
+.subscribe__email{
+    margin-top: 115px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    height: 104px;
+    width: 979px;
+    align-items: center;
+    /*box-shadow: 1px 1px 1px;*/
+}
+
+.email__img{
+    margin-left: 51px;
+    margin-right: 17px;
+}
+
+.input__text{
+    border: none;
+}
+
+.email__btn{
+    margin: 10px;
+}
+
+/*------------------subscribe------------------ */
+/*------------------footer------------------ */
+footer{
+background-color: #1F1F1F;
+}
+
+.footer{
+    margin-top: -52px;
+    padding: 150px 0px;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__vivadecor{
+    margin: 0px 100px 0px 0px;
+}
+
+.vivadecor__text{
+    line-height: 150.7%;
+    font-size: 22px;
+    color: #D1D1D1;
+}
+
+.footer__vivadecor > *:not(:last-child){
+    margin: 0px 0px 60px 0px;
+}
+
+.vivadecor__media > *:not(:last-child){
+    margin-right: 26px;
+}
+
+.block-item__title{
+    font-size: 24px;
+    color: #FFFFFF;
+
+}
+
+.block-item__text{
+    font-size: 22px;
+    color: #D1D1D1;
+}
+
+.footer__block-item > *:not(:last-child){
+    margin: 0px 0px 34px 0px;
+}
